@@ -1,0 +1,30 @@
+#include <winver.h>
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,11
+ PRODUCTVERSION 1,0,0,11
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Graziano Spinelli"
+            VALUE "FileDescription", "Behringer BCD2000 - ASIO and MIDI driver (libusbK)"
+            VALUE "FileVersion", "1.0.0.11"
+            VALUE "InternalName", "bcd2000asio"
+            VALUE "LegalCopyright", "Graziano Spinelli 2026"
+            VALUE "OriginalFilename", "bcd2000asio.dll"
+            VALUE "ProductName", "Behringer BCD2000 ASIO"
+            VALUE "ProductVersion", "1.0.0.11"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
